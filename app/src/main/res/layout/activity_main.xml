@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.snail.scananimation.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_circle1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scan_circle"/>
+
+    <ImageView
+        android:id="@+id/iv_circle2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scan_circle"/>
+
+    <ImageView
+        android:id="@+id/iv_circle3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scan_circle"/>
+
+    <ImageView
+        android:id="@+id/iv_circle4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scan_circle"/>
+
+    <ImageView
+        android:id="@+id/iv_start_end"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:onClick="onStartEnd"
+        android:src="@drawable/scan_circle"/>
+
+</FrameLayout>
